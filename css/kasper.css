@@ -410,14 +410,15 @@ header nav .form i {
 .imgs-container .box:hover img {
   transform: rotate(3deg) scale(1.1);
 }
-@media (max-width: 767px) {
-  .imgs-container .box {
-    flex-basis: 100%;
-  }
-}
+
 @media (max-width: 1199px) {
   .imgs-container .box {
     flex-basis: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .imgs-container .box {
+    flex-basis: 100%;
   }
 }
 .imgs-container .box img {
